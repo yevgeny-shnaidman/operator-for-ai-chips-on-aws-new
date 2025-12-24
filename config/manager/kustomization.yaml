@@ -3,8 +3,8 @@ kind: Kustomization
 
 images:
 - name: controller
-  newName: quay.io/edge-infrastructure/aws-neuron-operator
-  newTag: v0.0.1
+  newName: quay.io/yshnaidm/aws-neuron-operator
+  newTag: rolling-upgrade
 
 resources:
 - manager.yaml
